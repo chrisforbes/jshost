@@ -1,0 +1,13 @@
+Example for hosting the (horrible!) ActiveScript runtime in C++.
+Does some of the painful stuff for you, like implementing IDispatch
+without imposing COM on the rest of your application.
+
+The classic way to do this was to have the IDL compiler generate dual
+interfaces, but this only works if you like IDL & COM. Something
+was needed to make this work (reasonably) painlessly in an otherwise
+plain-old-C++ environment.
+
+Enjoy. At least as much as you'll enjoy anything associated with the
+ActiveScript runtime!
+
+				-- chrisf
